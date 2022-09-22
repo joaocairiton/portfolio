@@ -1,220 +1,177 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Portfólio</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <body>
-    <!---header--->
-    <header>
-      <a href="#" class="logo"><img src="img/logo.png" alt="Logo-Marca" /></a>
-      <div class="bx bx-menu" id="menu-icon"></div>
+  <title>Portfólio</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+</head>
 
-      <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">Sobre</a></li>
-        <li><a href="#experience">Experiência</a></li>
-        <li><a href="#project">Projetos</a></li>
-      </ul>
-    </header>
+<body>
+  <!---header--->
+  <header>
+    <a href="#" class="logo"><img src="img/logo.png" alt="Logo-Marca" /></a>
+    <div class="bx bx-menu" id="menu-icon"></div>
 
-    <!---home--->
-    <section class="home" id="home">
-      <div class="home-text">
-        <h4>Olá</h4>
-        <h1>
-          Sou o João<br />
-          <span>Cairiton</span>
-        </h1>
-        <h3>Front-End | Back-End</h3>
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#experience">Experiência</a></li>
+      <li><a href="#project">Projetos</a></li>
+    </ul>
+  </header>
 
-        <div class="social-icons second">
-          <a href="https://www.linkedin.com/in/joaocairiton/"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
-          <a href="https://github.com/joaocairiton"
-            ><i class="bx bxl-github"></i
-          ></a>
-        </div>
+  <!---home--->
+  <section class="home" id="home">
+    <div class="home-text">
+      <h4>Olá</h4>
+      <h1>
+        Sou o João<br />
+        <span>Cairiton</span>
+      </h1>
+      <h3>Front-End | Back-End</h3>
+
+      <div class="social-icons second">
+        <a href="https://www.linkedin.com/in/joaocairiton/"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/joaocairiton"><i class="bx bxl-github"></i></a>
       </div>
-      
-    </section>
-
-    <!---about--->
-    <section class="about" id="about">
-      <div class="about-img">
-        <img src="img/perfil.jpg" alt="foto perfil" />
-      </div>
-
-      <div class="about-text">
-        <h2>Sobre Mim</h2>
-        <h4>Programador Back-End | Front-End </h4>
-        <p>
-         Graduado em Analise e Desenvolvimento de Sistemas, tenho Experiência em
-         Desenvolvimento Web (Angular, REST-API, Html/css, javascript, Java)
-        </p>
-      </div>
-    </section>
-
-    <!---experiencia--->
-    <section class="experience" id="experience">
-      <div class="main-text">
-        <h2>Minha Experiência</h2>
-        <h4>Melhor Experiência</h4>
-      </div>
-
-      <div class="experience-content">
-        <div class="box">
-          <img src="img/html.png" alt="html e css"/>
-          <h3>Html/ Css</h3>
-          <p></p>
-        </div>
-
-        <div class="box">
-          <img src="img/angular-icon.png" style="color: #f5f0f0" alt="angular" />
-          <h3>Angular</h3>
-          <p></p>
-        </div>
-
-        <div class="box">
-          <img src="img/spring.png" alt="spring-boot" />
-          <h3>Spring-Boot</h3>
-          <p></p>
-        </div>
-      </div>
-    </section>
-    <!---portfolio--->
-    <section class="project" id="project">
-      <div class="main-text">
-        <h2>Meu Portfólio</h2>
-        <h4>Veja os Projetos Prontos</h4>
-      </div>
-
-      <!-- Swiper -->
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="box-loader">
-              <div class="loader">
-                <span style="--i: 1"></span>
-                <span style="--i: 2"></span>
-                <span style="--i: 3"></span>
-                <span style="--i: 4"></span>
-                <span style="--i: 5"></span>
-                <span style="--i: 6"></span>
-                <span style="--i: 7"></span>
-                <span style="--i: 8"></span>
-                <span style="--i: 9"></span>
-                <span style="--i: 10"></span>
-                <span style="--i: 11"></span>
-                <span style="--i: 12"></span>
-                <span style="--i: 13"></span>
-                <span style="--i: 14"></span>
-                <span style="--i: 15"></span>
-                <span style="--i: 16"></span>
-                <span style="--i: 17"></span>
-                <span style="--i: 18"></span>
-                <span style="--i: 19"></span>
-                <span style="--i: 20"></span>
-              </div>
-            </div>
-
-            <div class="info">
-              <h5>
-                Angular | Spring-Boot <br />
-                <span>Em Desenvolvimento</span>
-              </h5>
-              <a href="">Visualizar</a>
-            </div>
-          </div>
-          <div class="swiper-slide" style="background-image: url(img/em-breve.png)" >
-            <div class="info">
-              <h5>
-                Em breve<br />
-                <span>Em breve</span>
-              </h5>
-              <a href="">Visualizar</a>
-            </div>
-          </div>
-          <div class="swiper-slide" style="background-image: url(img/em-breve.png)">
-            <div class="info">
-              <h5>
-                em breve <br />
-                <span>Em Breve</span>
-              </h5>
-              <a href="">Visualizar</a>
-            </div>
-          </div>
-          <div class="swiper-slide" style="background-image: url(img/em-breve.png)">
-            <div class="info">
-              <h5>
-                Em breve <br />
-                <span>Em Breve</span>
-              </h5>
-              <a href="">Visualizar</a>
-            </div>
-          </div>
-          <div class="swiper-slide" style="background-image: url(img/em-breve.png)">
-            <div class="info">
-              <h5>
-                Em breve <br />
-                <span>Em breve</span>
-              </h5>
-              <a href="">Visualizar</a>
-            </div>
-          </div>
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-      </div>
-    </section>
-
-    <div class="cop-text">
-      <p>Desenvolvido por João Cairiton © 2022</p>
     </div>
-    <a href="" class="top"><i class="bx bx-up-arrow-alt"></i></a>
 
-    <script type="text/javascript" src="js/script.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  </section>
 
-    <script>
-      var swiper = new Swiper(".swiper-container", {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: "auto",
-        coverflowEffect: {
-          rotate: 0,
-          stretch: 0,
-          depth: 100,
-          modifier: 5,
-          slideShadows: true,
-          loop: true,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-        },
-      });
-    </script>
-  </body>
+  <!---about--->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="img/perfil.jpg" alt="foto perfil" />
+    </div>
+
+    <div class="about-text">
+      <h2>Sobre Mim</h2>
+      <h4>Programador Back-End | Front-End </h4>
+      <p>
+        Graduado em Analise e Desenvolvimento de Sistemas, tenho Experiência em
+        Desenvolvimento Web (Angular, REST-API, Html/css, javascript, Java)
+      </p>
+    </div>
+  </section>
+
+  <!---experiencia--->
+  <section class="experience" id="experience">
+    <div class="main-text">
+      <h2>Minha Experiência</h2>
+      <h4>Melhor Experiência</h4>
+    </div>
+
+    <div class="experience-content">
+      <div class="box">
+        <img src="img/html.png" alt="html e css" />
+        <h3>Html/ Css</h3>
+        <p></p>
+      </div>
+
+      <div class="box">
+        <img src="img/angular-icon.png" style="color: #f5f0f0" alt="angular" />
+        <h3>Angular</h3>
+        <p></p>
+      </div>
+
+      <div class="box">
+        <img src="img/spring.png" alt="spring-boot" />
+        <h3>Spring-Boot</h3>
+        <p></p>
+      </div>
+    </div>
+  </section>
+  <!---portfolio--->
+  <section class="project" id="project">
+    <div class="main-text">
+      <h2>Meu Portfólio</h2>
+      <h4>Veja os Projetos Prontos</h4>
+    </div>
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        
+        <div class="swiper-slide" style="background-image: url(img/97015143_padded_logo.png)">
+          <div class="info">
+            <h5>
+              HERO<br />
+              <span>API MARVEL</span>
+            </h5>
+            <a href="https://api-hero-marvel.netlify.app/">Visualizar</a>
+          </div>
+        </div>
+        <div class="swiper-slide" style="background-image: url(img/em-breve.png)">
+          <div class="info">
+            <h5>
+              em breve <br />
+              <span>Em Breve</span>
+            </h5>
+            <a href="">Visualizar</a>
+          </div>
+        </div>
+        <div class="swiper-slide" style="background-image: url(img/em-breve.png)">
+          <div class="info">
+            <h5>
+              Em breve <br />
+              <span>Em Breve</span>
+            </h5>
+            <a href="">Visualizar</a>
+          </div>
+        </div>
+        <div class="swiper-slide" style="background-image: url(img/em-breve.png)">
+          <div class="info">
+            <h5>
+              Em breve <br />
+              <span>Em breve</span>
+            </h5>
+            <a href="">Visualizar</a>
+          </div>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <div class="cop-text">
+    <p>Desenvolvido por João Cairiton © 2022</p>
+  </div>
+  <a href="" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+
+  <script type="text/javascript" src="js/script.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".swiper-container", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 5,
+        slideShadows: true,
+        loop: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+</body>
+
 </html>
