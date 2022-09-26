@@ -30,4 +30,6 @@ sr.reveal('.about,.experience,.project,.contact',{delay:200, origin:'bottom'})
 
 
 
+
+
  
